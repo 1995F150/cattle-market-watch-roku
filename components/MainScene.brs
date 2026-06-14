@@ -1,17 +1,13 @@
-sub init()
+sub Main()
+    screen = CreateObject("roSGScreen")
+    port = CreateObject("roMessagePort")
 
-    marketText = "
-Feeder Cattle: $285.50
+    screen.SetMessagePort(port)
 
-Fed Cattle: $221.00
+    scene = screen.CreateScene("MainScreen")
+    screen.Show()
 
-Corn: $4.65
-
-Soybeans: $10.22
-
-Updated: June 2026
-"
-
-    m.top.findNode("marketLabel").text = marketText
-
+    while true
+        msg = wait(0, port)
+    end while
 end sub
