@@ -1,0 +1,9 @@
+{
+  "updated": "June 2026",
+  "markets": [
+    { "name": "Feeder Cattle", "price": "$285.50", "change": "+1.25" },
+    { "name": "Fed Cattle", "price": "$221.00", "change": "-0.40" },
+    { "name": "Corn", "price": "$4.65", "change": "+0.03" },
+    { "name": "Soybeans", "price": "$10.22", "change": "-0.08" }
+  ]
+}
