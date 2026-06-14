@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="MainScene" extends="Scene">
+    <children>
+
+        <Label
+            id="titleLabel"
+            text="Cattle Market Watch"
+            translation="[100,100]"
+            width="800"
+            height="50" />
+
+        <Label
+            id="marketLabel"
+            text="Loading Market Data..."
+            translation="[100,180]"
+            width="1200"
+            height="400" />
+
+    </children>
+</component>
